@@ -1,0 +1,21 @@
+# Transform image into polygon object
+
+THis script allow you to transform image containing polygon into a geometry
+
+**Language:** Python 3.7.x
+
+**Input:** tiff url, geojson url
+
+**Output:** geojson file
+
+### Running instructions:
+
+```Batchfile
+python image_to_polygons.py <tif_url> <geojson_url>
+```  
+
+### Required
+* Opencv-python
+* Skimage
+* Scipy
+

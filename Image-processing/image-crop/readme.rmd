@@ -1,0 +1,22 @@
+# Image crop
+THis script will crop a raster into tile by tile size
+
+**Language:** Python 3.7.x
+
+**Input:** tiff path, new path, path to save tiles, tile size
+
+**Output:** image cropped
+
+### Running instructions:
+
+```Batchfile
+python split_raster.py <path_to_tif > <path_to_save_tiles > <tile_size_by_256> 
+```  
+
+### Required
+- rasterio : to read and manipulate raster image like tiff format
+- opencv-python: to manipulate images
+- shapely: for polygon geometries manipulation
+
+
+

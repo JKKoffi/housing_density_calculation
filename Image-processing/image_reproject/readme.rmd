@@ -1,0 +1,29 @@
+# OSM satellite maps
+
+**Language:** Python 3.7.x
+
+**Input:** tiff path, new tiff path , new crs 
+
+**Output:** new tiff raster
+
+### Running instructions:
+
+
+```Batchfile
+python reproject_raster.py <tif_to_tiff> <path_to_new_tiff> <CRS_dst>
+``` 
+
+### Required
+- GDAL
+- rasterio
+
+For big raster , use gdal extensions. An example of use case is:
+
+```Batchfile
+gdalwarp -co compress=JPEG -co PHOTOMETRIC=YCBCR -co TILED=YES -co "BLOCKXSIZE=256" -co "BLOCKYSIZE=256" -s_srs crs_source -t_srs crs_dst 'src_tif' 'dst_tif'
+srctif: raster tiff path
+dst_tif : new raster tiff path
+crs_source : crs of raster tiff source
+crs_dst : new crs 
+```
+

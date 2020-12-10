@@ -1,0 +1,21 @@
+# Building segmentation by meanshift and watershed
+
+THis script allow you to extract building geometry into new image
+
+**Language:** Python 3.7.x
+
+**Input:** dir of tiles, dir of result, dir of result 2
+
+**Output:** image of segmentation and image of both (segmentation and original image)
+
+### Running instructions:
+
+```Batchfile
+python meanshift.py <dir_of_tiles> <path_of_result> <path_to_result2>
+```  
+
+### Required
+* Opencv-python
+* Skimage
+* Scipy
+

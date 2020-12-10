@@ -1,0 +1,22 @@
+# Merge tiles
+THis script allow you to merge cropped tiles 
+
+**Language:** Python 3.7.x
+
+**Input:**dir of tiles, image path
+
+**Output:** image 
+
+### Running instructions:
+
+```Batchfile
+python merge_raster.py <dir_of_tiles> <image_path> 
+```  
+
+### Required
+- rasterio : to read and manipulate raster image like tiff format
+- opencv-python: to manipulate images
+- shapely: for polygon geometries manipulation
+
+
+

@@ -1,0 +1,27 @@
+# Image clip 
+THis script will clip a raster by polygon in geojson file
+
+**Language:** Python 3.7.x
+
+**Input:** tiff path, new path, geojson url | tiff path, new path, geojson url, tiles_dir
+
+**Output:** image clipped
+
+### Running instructions:
+
+To clip by single geometry 
+```Batchfile
+python image_clip.py <tif_path> <geojson_url> <path_to_new_tiff> 
+```  
+
+TO clip by multiple geomety
+python image_clip_gdf.py <tif_path> <geojson_url> <tiles_dir> 
+```  
+
+
+### Required
+- geopandas : to read Geojson and shapefile files
+- rasterio : to read and manipulate raster image like tiff format
+
+
+

@@ -1,0 +1,11 @@
+## Description
+
+## Description
+
+Dans `Segmentatopion`
+* `BuildingSegmentation_with_generator.py`  Permet de segmenter une image à l'aide de générateur
+* `BuildingSegmentation_fastai.py` Permet de segmenter une image à l'aide du modèle unet de la librairie `fastai`
+* `BuildingSegmentationMaskrcnn.py` 
+
+Dans `Classification`:
+* `buildingnobuilding.py` permet classifier une zone habitée selon 2 catégories possibles

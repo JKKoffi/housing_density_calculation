@@ -12,7 +12,7 @@ python script_name.py input_arguments
 ```
 If you're using any jupyter notebook, do:
 
-``
+```
 cd folder_name_of_the_script
 %run -i script_name.py input_arguments
 ```

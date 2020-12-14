@@ -1,7 +1,22 @@
 # housing_density_calculation
-The aim of this project is to estimate the number of household by using satellite image like raster file.
 
+### About 
+
+The aim of this project is to estimate the number of household by using satellite image like raster file.
 We used for this project a raster image of Abidjan city, with 2.5 metter of spatial resolution.
+
+### Running example script
+T run any script of this project, move to ve foder containing the script script_name.py and do:
+``
+python script_name.py input_arguments
+````
+If you're using any jupyter notebook, do:
+``
+
+cd folder_name_of_the_script
+%run -i script_name.py input_arguments
+``
+
 
 ### Project description:
 

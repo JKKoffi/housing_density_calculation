@@ -12,3 +12,5 @@ The aim of this project is to estimate the number of household by using satellit
 ### Contact
 `Email`: koffikouakoujonathan58@gmail.com
 
+Partnership:
+International Data Science Institute - Orange Côte d'Ivoire 

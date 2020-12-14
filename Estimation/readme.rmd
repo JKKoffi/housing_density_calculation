@@ -1,4 +1,4 @@
-##Utilisation
+### Script execution
 
 `azimuth_estimation.py` Permet de générer une liste d'angle azimuth pour une période de temps fixé
 	* modifier pour inclure les date de début et de fin

@@ -1,7 +1,7 @@
 # housing_density_calculation
 The aim of this project is to estimate the number of household by using satellite image like raster file.
 
-We used for this project a raster image of Abidjan city, with 2.5 spatial resolution.
+We used for this project a raster image of Abidjan city, with 2.5 metter of spatial resolution.
 
 ### Project description:
 

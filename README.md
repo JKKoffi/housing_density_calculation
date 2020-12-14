@@ -16,3 +16,6 @@ We used for this project a raster image of Abidjan city, with 2.5 metter of spat
 
 Partnership:
 International Data Science Institute - Orange Côte d'Ivoire 
+
+
+If you like this project, please give a start.

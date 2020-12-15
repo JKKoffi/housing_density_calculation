@@ -9,14 +9,16 @@ We used for this project a raster image of Abidjan city, with 2.5 metter of spat
 
 ```{bash}
 git clone https://github.com/cosmiq/solaris.git
-``
+```
 
 * for GPU:
+
 ```{bash}
 conda env create -f environment-gpu.yml
 ```
 
 * for CPU:
+
 ```{bash}
 conda env create -f environment-gpu.yml
 ```

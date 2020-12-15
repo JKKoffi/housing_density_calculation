@@ -5,6 +5,27 @@
 The aim of this project is to estimate the number of household by using satellite image like raster file.
 We used for this project a raster image of Abidjan city, with 2.5 metter of spatial resolution.
 
+### Poject env setup and activation
+
+```{bash}
+git clone https://github.com/cosmiq/solaris.git
+``
+
+* for GPU:
+```{bash}
+conda env create -f environment-gpu.yml
+```
+
+* for CPU:
+```{bash}
+conda env create -f environment-gpu.yml
+```
+
+To activate the environment do:
+```{bash}
+conda activate solaris
+```
+
 ### Running example script
 T run any script of this project, move to ve foder containing the script script_name.py and do:
 ```

@@ -43,11 +43,11 @@ cd folder_name_of_the_script
 
 ### Project description:
 
-* `download_satellite_images` will alow you to download image from Bing Maps and google Maps
-* `Image-processing` contain main operation on images 
-* `POI_crawler` just to scrape POI (Point of interest) from google street maps 
-* `housing_density_calculation.ipynb` For all example of execution script into this repository
-* `Project-detail.pdf` Instructions to follow to exécute all scripts
+|- `download_satellite_images` will alow you to download image from Bing Maps and google Maps
+|- `Image-processing` contain main operation on images 
+|- `POI_crawler` just to scrape POI (Point of interest) from google street maps 
+|- `housing_density_calculation.ipynb` For all example of execution script into this repository
+|- `Project-detail.pdf` Instructions to follow to exécute all scripts
 
 ### Contact
 `Email`: koffikouakoujonathan58@gmail.com
